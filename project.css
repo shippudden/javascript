@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Open+Sans&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    margin: 10rem 40rem 10rem 20rem;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 10px;
+    padding: 10rem 0 18rem 13rem;
+    margin-left: 50rem;
+}
+
+.travel-bag{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    color: gray;
+    padding-bottom: 1rem;
+}
+
+.everyday{
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 1rem;
+}
+
+.Rating-section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.text-container{
+    color: gray;
+    padding-bottom: 1rem;
+}
+
+.lower-items{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    padding-bottom: 2rem;
+    align-items: center;
+}
+
+.img-container{
+    border-radius: 20px;
+}
+
+.size-container{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.length-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.length-18{
+    border: 2px solid blue;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.length-20{
+    border: 1px solid rgb(212, 212, 212);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.buy{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.gaurantee{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    margin: 1rem 0 0 15rem;
+}
+
+button{
+    padding: 1rem 19rem;
+    background-color: rgb(67, 67, 236);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1.5rem;
+}
+

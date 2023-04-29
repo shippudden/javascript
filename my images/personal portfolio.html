@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="./first portfolio.css">
+    <link rel="shortcut icon" href="my images/Coding screen.jpg">
+    <script src="https://kit.fontawesome.com/512062ddf2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <ul class="unordered-list">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark"></i>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi i am <span>David</span>,<br> I Am a ui/ux Designer</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------about----------- -->
+    <div class="About-container">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="picture.svg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="about-title">About me</h1>
+                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident debitis possimus maiores quae numquam optio. Asperiores corrupti eveniet dolore nemo, commodi, ipsa voluptate minus, beatae inventore libero quam eaque! Corrupti, deleniti molestias voluptates dolore eius ad, eos consequuntur earum quasi officiis neque ea aliquid impedit enim adipisci nostrum labore voluptas quod ipsam maiores dolores autem ipsum! Esse, reiciendis? Saepe quis vitae minus incidunt recusandae.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>Web development</span><br>web development</li>
+                            <li><span>Mobile app design/development</span><br>app design/development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023 - current</span><br>UI/UX training at lighthall</li>
+                            <li><span>2023 - current</span><br>Tutor, joseph bredan at lighthall</li>
+                            <li><span>2023 - current</span><br>internship at lighthall</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023</span><br>web design at lighthall</li>
+                            <li><span>2023</span><br>app design at lighthall</li>
+                            <li><span>2023</span><br>web app design at lighthall</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------services----------- -->
+    <div class="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure consectetur laborum impedit ab repellendus, ratione dolorum corrupti. Amet, voluptatem voluptas.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure consectetur laborum impedit ab repellendus, ratione dolorum corrupti. Amet, voluptatem voluptas.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Mobile App Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure consectetur laborum impedit ab repellendus, ratione dolorum corrupti. Amet, voluptatem voluptas.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------portfolio----------- -->
+   <div class="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="my images/business.svg" alt="">
+                <div class="layer">
+                    <h3>Web Design</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-link-simple-slash"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="my images/work.svg" alt="">
+                <div class="layer">
+                    <h3>Shopping website</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="my images/image business.svg" alt="">
+                <div class="layer">
+                    <h3>Social Media website</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store</p>
+                    <a href="#"><i class="fa-solid fa-link-simple-slash"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+
+   <!-- -----------contact----------- -->
+   <div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p class="line"><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p class="line"><i class="fa-solid fa-phone"></i>08105069687</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form classs="submit-to-google-sheet"> 
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" email="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        2023 &copy; copyright Made by David
+    </div>
+   </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx4F_073R95NecUirGoPO7R8l4xz5JvPRKlEyo-gF17LRJ63N-qFeAe1ezHQnoOKBcsPQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent succesfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
